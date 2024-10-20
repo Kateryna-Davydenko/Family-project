@@ -1,0 +1,65 @@
+body {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(226, 226, 236);
+}
+
+.container {
+  min-width: 320px;
+}
+
+.header {
+  background-image: url(../images/image-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: rgb(66, 66, 119);
+  height: 250px;
+}
+
+.main-container {
+}
+
+.main-list {
+  list-style: none;
+  margin-bottom: 36px;
+}
+.main-list-te {
+  font-size: 18px;
+  color: green;
+}
+
+.main-list-tex {
+  font-size: 18px;
+  color: red;
+  text-align: end;
+  margin-right: 36px;
+}
+
+.main-list-text {
+  font-size: 18px;
+  color: blueviolet;
+}
+
+.main-text {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 5px 5px 5px gray;
+  margin-right: 24px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+.section-main-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.section-main-item {
+}
