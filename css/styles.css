@@ -63,3 +63,7 @@ body {
 }
 .section-main-item {
 }
+
+.section-main-img {
+  justify-content: center;
+}
