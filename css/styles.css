@@ -1,4 +1,5 @@
 body {
+  max-width: 375px;
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
@@ -6,7 +7,6 @@ body {
 }
 
 .container {
-  min-width: 320px;
 }
 
 .header {
@@ -66,4 +66,22 @@ body {
 
 .section-main-img {
   justify-content: center;
+}
+
+.footer {
+  list-style: none;
+  background: url(../images/image-footer.jpg);
+  height: 200px;
+}
+
+.text-footer {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(66, 23, 106);
+}
+
+.footer-text {
+  font-size: 20px;
+  text-align: end;
+  margin-right: 24px;
 }
