@@ -5,9 +5,7 @@ body {
   font-weight: 400;
   font-style: normal;
   background-color: rgb(226, 226, 236);
-}
-
-.container {
+  margin: auto;
 }
 
 .header {
@@ -18,29 +16,43 @@ body {
   text-align: center;
   color: rgb(66, 66, 119);
   height: 250px;
+  margin-bottom: 36px;
 }
 
-.main-container {
+.section-text {
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  color: navy;
+}
+.section-number {
+  font-size: 150px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: green;
+  margin: auto;
 }
 
 .main-list {
   list-style: none;
-  margin-bottom: 36px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .main-list-te {
-  font-size: 18px;
+  font-size: 23px;
   color: green;
 }
 
 .main-list-tex {
-  font-size: 18px;
+  font-size: 23px;
   color: red;
   text-align: end;
   margin-right: 36px;
 }
 
 .main-list-text {
-  font-size: 18px;
+  font-size: 23px;
   color: blueviolet;
 }
 
@@ -62,21 +74,27 @@ body {
   flex-wrap: wrap;
   gap: 12px;
 }
-.section-main-item {
+.img {
+  list-style: none;
 }
 
 .section-main-img {
   justify-content: center;
 }
+.section-main-text {
+  font-size: 35px;
+  text-align: center;
+  color: rgb(176, 36, 183);
+}
 
 .footer {
   list-style: none;
   background: url(../images/image-footer.jpg);
-  height: 200px;
+  height: 120px;
 }
 
 .text-footer {
-  font-size: 30px;
+  font-size: 33px;
   text-align: center;
   color: rgb(66, 23, 106);
 }
